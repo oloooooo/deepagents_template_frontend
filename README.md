@@ -23,6 +23,10 @@ deepagents 后端（FastAPI）的 Web 前端：Vue 3 + TypeScript + Element Plus
 ## 进入前端
 
 ```bash
+# 0) 克隆仓库（从 GitHub 拉代码，首次）
+git clone https://github.com/oloooooo/deepagents_template_frontend.git
+cd deepagents_template_frontend
+
 # 1) 起后端（另一个终端，仓库 deepagents_template/）
 uv run python main.py          # 监听 127.0.0.1:8000
 
